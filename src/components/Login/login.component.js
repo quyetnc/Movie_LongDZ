@@ -63,7 +63,7 @@ class Login extends React.Component {
       <SafeAreaView style={{flex: 1, justifyContent: 'center'}}>
         <View style={{marginHorizontal: 17, alignItems: 'center'}}>
           <View>
-            {/* <Image source={{uri:'https://www.kindpng.com/picc/m/642-6428979_freetoedit-goku-kaioken-ssgssgoku-freetoedit-goku-ssj-blue.png'}}/> */}
+             <Image source={require('../../res/images/Logo.png')}/>
           </View>
           <Text style={styles.textstyle2}>ĐĂNG NHẬP HỆ THỐNG</Text>
 
